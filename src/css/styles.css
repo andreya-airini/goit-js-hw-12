@@ -45,7 +45,7 @@ body {
 .form button {
   border-radius: 8px;
   padding: 8px 16px;
-  width: 75px;
+  width: 91px;
   height: 40px;
   background: #4e75ff;
   color: #fff;
@@ -125,9 +125,23 @@ body {
 }
 
 .load-more-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: background 0.3s ease;
+
   display: block;
   margin: 20px auto;
-  padding: 12px 24px;
-  font-size: 16px;
-  cursor: pointer;
+  text-align: center;
+}
+
+.load-more-btn:active {
+  background: #6c8cff;
 }
